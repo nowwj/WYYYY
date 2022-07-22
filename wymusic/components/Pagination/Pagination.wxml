@@ -1,0 +1,13 @@
+  <view class="pagination">
+    <!-- 上 -->
+    <view> 上一页</view>
+    <view>1</view>
+    <view>···</view>
+    <!-- 中间部分 -->
+    <view>2</view>
+    <!-- 下 -->
+    <view>···</view>
+    <view>8</view>
+    <view>下一页</view>
+    <view style="margin-left: 30rpx">共30条</view>
+  </view>

@@ -1,0 +1,60 @@
+.playListContainer {
+    margin: 0 20rpx;
+}
+
+.header{
+    height: 84rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1rpx #c43d33;
+}
+.header .allList {
+    font-size: 40rpx;
+}
+.header .hotList {
+    width: 92rpx;
+    height: 58rpx;
+    line-height: 58rpx;
+    text-align: center;
+    color: #fff;
+    border-radius: 6rpx;
+    font-size: 26rpx;
+    background: #c43d33;
+}
+.ListContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ListItem {
+    padding: 0 18rpx;
+    margin-top: 10rpx;
+    height: 320rpx;
+}
+.ListItem image {
+   width: 200rpx;
+   height: 200rpx;
+}
+.ListItem .ListTile{
+    width: 180rpx;
+    font-size: 28rpx;
+    margin-left: 10rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical; /*设置对其模式*/
+    -webkit-line-clamp: 2; /*设置多行的行数*/
+}
+.titleContainer {
+    display: flex;
+    align-items: center;
+}
+.by {
+    font-size: 20rpx;
+    color: darkgrey;
+}
+.author {
+    font-size: 26rpx;
+    margin-left: 10rpx;
+}
+

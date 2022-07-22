@@ -1,0 +1,18 @@
+<view class="playListContainer">
+    <!-- 头部区域 -->
+    <view class="header">
+        <text class="allList">全部</text>
+        <view class="hotList">热门</view>
+    </view>
+    <!-- 内容区域 -->
+    <view class="ListContainer">
+        <view class="ListItem" wx:for="{{playList}}" wx:key="id">
+            <image src="{{item.picUrl}}" id="{{item.id}}" bindtap="goPlayList"></image>
+            <view class="ListTile">{{item.name}}</view>
+            <view class="titleContainer">
+                <view class="by">by</view>
+                <view class="author">{{item.copywriter}}</view>
+            </view>
+        </view>
+    </view>
+</view>
